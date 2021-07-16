@@ -1,0 +1,131 @@
+label{
+	font-weight: bold;
+}
+
+.table-encabezado{
+	padding-bottom: 20px;
+}
+#table{
+	border-collapse: collapse;
+  margin-top: 50px;
+  margin-left: 25px;
+	line-height:20px;
+  width: 85%;
+  font-weight: bold;
+  font-size: 14px;
+}
+#table th {
+    /*border: 1px solid black;*/
+}
+#table td{
+	/*border: 1px solid black;*/
+
+}
+/*documento*/
+#etiqueta_documento{
+display: none;
+}
+/*documento*/
+#etiqueta_cliente{
+  display: none;
+}
+#etiqueta_direccion{
+display: none;
+}
+#etiqueta_vendedor{
+  display: none;
+}
+#etiqueta_fecha{
+  display: none;
+}
+#etiqueta_hora{
+  display: none;
+}
+#etiqueta_factura{
+  display: none;
+}
+#etiqueta_letras{
+	display: none;
+}
+.class_detalle_factura{  
+  top: 120px;
+  left: 100px;
+  font-size: 12px;
+
+}
+.my_class_price_product{
+    padding-left: 100px;
+
+  }
+
+
+.my_class_quantity{
+        text-align: center;
+				color: black;
+   }
+ .my_class_cost{
+        text-align: right;
+				color: black;
+
+  }
+  .my_class_name_product{
+    padding-left: 10px;
+		color: black;
+
+  }
+
+  
+  
+.my_class_name{
+  position: absolute;
+	color: black;
+  top: 95px;
+  left: 100px;
+}
+.my_class_name_city{
+  position: absolute;
+  top: 118px;
+  left: 100px;
+	color: black;
+
+}
+.my_class_nit{
+	position: absolute;
+  top: 118px;
+  left: 510px;
+	color: black;
+
+}
+.my_class_date{
+  position: absolute;
+  top: 70px;
+  left: 435px;
+	color: black;
+	word-spacing: 50px;
+}
+.my_class_name_vendedor{
+display: none;
+}
+.my_class_hora{
+  display: none;
+}
+.my_class_factura{
+  display: none;
+}
+
+
+.my_class_total  {
+  position: absolute;
+  color: black;
+
+  top: 390px;
+  left: 590px;
+}
+.my_class_total_letter
+{
+	position: absolute;
+	color: black;
+
+  top: 398px;
+  left: 90px;
+}

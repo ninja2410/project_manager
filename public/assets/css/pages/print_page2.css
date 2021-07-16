@@ -1,0 +1,139 @@
+label{
+	font-weight: bold;
+}
+
+.table-encabezado{
+	padding-bottom: 20px;
+}
+#table{
+	border-collapse: collapse;
+  margin-top: 60px;
+  margin-left: 25px;
+	line-height:17px;
+  width: 90%;
+  font-weight: bold;
+}
+#table th {
+    /*border: 1px solid black;*/
+}
+#table td{
+	/*border: 1px solid black;*/
+
+}
+#etiqueta_cliente{
+  display: none;
+}
+#etiqueta_direccion{
+display: none;
+}
+#etiqueta_vendedor{
+  display: none;
+}
+#etiqueta_fecha{
+  display: none;
+}
+#etiqueta_hora{
+  display: none;
+}
+#etiqueta_factura{
+  display: none;
+}
+.ocultar {
+    display: none;
+}
+.mostrar {
+    display: inline;
+}
+
+#etiqueta_letras{
+	display: none;
+}
+.my_class_quantity{
+        text-align: center;
+				color: black;
+   }
+ .my_class_cost{
+        text-align: right;
+				color: black;
+
+  }
+  .my_class_name_product{
+    padding-left: 50px;
+		color: black;
+
+
+  }
+
+.my_class_name{
+  position: absolute;
+	color: black;
+  top: 95px;
+  left: 150px;
+}
+.my_class_name_city{
+  display: none;
+
+}
+.my_class_nit{
+	display: none;
+
+}
+.my_class_date{
+  position: absolute;
+  top: 115px;
+  left: 70px;
+  /* left: 570px; */
+	color: black;
+}
+.my_class_name_vendedor{
+  position: absolute;
+  top: 115px;
+  left: 275px;
+  color: black;
+}
+/*documento*/
+#etiqueta_documento{
+display: none;
+}
+/*documento*/
+.my_class_hora{
+  position: absolute;
+	color: black;
+  top: 95px;
+  left: 550px;
+}
+.my_class_factura{
+  position: absolute;
+  top: 115px;
+  left: 550px;
+  color: black;
+  font-size: 10px;
+}
+.my_class_total  {
+  position: absolute;
+  color: black;
+
+  top: 488px;
+  left: 570px;
+}
+.my_class_total_letter
+{
+	position: absolute;
+	color: black;
+
+  /*top: 330px;*/
+  top: 518px;
+  left: 25px;
+}
+#encabezado{
+	display: none;
+}
+
+.printable_comment
+{
+	position: absolute;
+	color: black;
+
+  top: 538px;
+  left: 25px;
+}

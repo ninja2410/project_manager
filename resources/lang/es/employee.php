@@ -1,0 +1,41 @@
+<?php
+ 
+return [
+
+    'list_employees' => 'Listado de Empleados',
+    'new_employee' => 'Nuevo Empleado',
+    'person_id' => 'ID',
+    'last_name'=>'Apellidos',
+    'name' => 'Nombres',
+    'email' => 'Email',
+    'password' => 'Contraseña',
+    'confirm_password' => 'Confirmar Contraseña',
+    'collection_goal' => 'Meta de cobro',
+    'submit' => 'Guardar',
+    'edit' => 'Editar',
+    'expenses_max' => 'Máximo de viáticos',
+    'delete' => 'Borrar',
+    'avatar'=>'Foto de usuario',
+    'dpi'=>'DPI',
+    'phone'=>'Teléfono',
+    'date_hire'=>'Fecha de contratación',
+    'date_dimissal'=>'Fecha de despido',
+    'nationality'=>'Nacionalidad',
+    'mobile'=>'Teléfono celular',
+    'address'=>'Dirección',
+    'alt_address'=>'Dirección alternativa',
+    'igss'=>'Número de afiliación a IGSS',
+    'number'=>'ID de empleado',
+    'em_name'=>'Nombre de contacto de emergencia',
+    'em_phone'=>'Número de contacto de emergencia',
+    'shoes'=>'Talla de zapatos',
+    'state'=>'Estado',
+    'sales_goal' => 'Meta de ventas',
+    'trouser'=>'Talla de pantalón',
+    'shirt'=>'Talla de playera',
+    'comments'=>'Comentarios',
+    'birthdate'=>'Fecha de nacimiento',
+    'update_employee' => 'Actualizar Empleado',
+    'roles'=>'Roles'
+
+];

@@ -1,0 +1,29 @@
+.header_table{
+}
+
+.table_title{
+  font-size: 20px !important;
+  margin: 0 0 0px !important;
+  font-weight: 600;
+  text-align: center;
+}
+
+.gastos{
+  background-color: #ef6f6c !important;
+}
+
+.efectivo{
+  background-color: #01bc8c !important;
+}
+
+.balance{
+  background-color: #f89a14 !important;
+}
+
+.desembolsos{
+  background-color: rgb(39, 109, 215) !important;
+}
+
+.transferencias{
+  background-color: rgb(41, 194, 242) !important;
+}

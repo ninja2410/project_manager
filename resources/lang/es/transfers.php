@@ -1,0 +1,52 @@
+<?php
+
+return [
+
+    'address' => 'Dirección',
+    'account' => 'Cuenta',
+    'from_account' => 'Cuenta origen',
+    'to_account' => 'Cuenta destino',
+    'transfers' => 'Transferencias',
+    'transfer' => 'Transferencia',
+    'transfer_detail' => 'Detalles transferencia',
+    'transfer_responsible' => 'Responsable de la cuenta',
+    'transfer_type' => 'Tipo de transferencia',
+    'banks' => 'Bancos',
+    'bank' => 'Banco',
+    'cost' => 'Costo',
+    'unit_cost' => 'Costo Unitario',
+    'sut_total' => 'Sub Total',
+    'date_received' => 'Fecha recepción',
+    'date_created' => 'Fecha envío',
+    'bank_name' => 'Nombre del banco',
+    'category' => 'Categoria',
+    'customer' => 'Cliente',
+    'description' => 'Descripción',
+    'edit_transfer' => 'Editar transferencia',
+    'name' => 'Nombre',
+    'transfer_number' => 'Número',
+    'reference' => 'Referencia',
+    'phone_number' => 'Teléfono',
+
+    'city' => 'Ciudad',
+    'currency' => 'Moneda',
+    'new_transfer' => 'Nueva transferencia',
+
+    'amount' => 'Monto',
+    'payment_method' => 'Forma de pago',
+    'state' => 'Estado/Provincia',
+    'status' => 'Estado',
+    'zip' => 'Código Postal',
+    'comments' => 'Comentarios',
+    'submit' => 'Guardar',
+    'edit' => 'Editar',
+    'delete' => 'Borrar',
+    'update' => 'Guardar',
+
+
+    'integrity_violation' => 'Se ha generado al menos una transacción con esta cuenta, no es posible eliminarla.',
+    'deleted_ok' => 'Transferencias eliminado correctamente.',
+    'save_ok' => 'Transferencia guardada correctamente.',
+    'update_ok' => 'Transferencias actualizado correctamente.',
+    'actions' => 'Acciones',
+];

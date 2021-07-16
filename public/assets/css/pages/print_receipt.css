@@ -1,0 +1,258 @@
+.logo_invoice{
+  height: 50px;
+}
+
+label{
+	font-weight: bold;
+}
+/*
+* jramirez 2019.10.24
+*/
+/* 9 */
+
+b, strong {
+    font-weight: 700;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-offset-2 {
+    margin-left: 16.66666667%;
+}
+.col-md-6 {
+    width: 50%;
+}
+.col-md-8 {
+    width: 66.66666667%;
+}
+.col-md-12 {
+    width: 100%;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.text-center {
+    text-align: center;
+}
+
+.h1, h1 {
+    /* font-size: 36px; */
+    font-size: 24px;
+}
+.h2, h2 {
+    /* font-size: 36px; */
+    font-size: 20px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h1 {
+    margin: .67em 0;
+    font-size: 2em;
+}
+.h4, h4 {
+    /* font-size: 18px; */
+    font-size: 14px;
+}
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+table {
+    background-color: transparent;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+}
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+table td {
+    border-top: none !important;
+}
+/* div {
+    display: block;
+} */
+/* 105 */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Noto Sans', serif;
+}
+/* 1702 */
+.row {
+    padding: 0 15px;
+}
+
+div {
+font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+.table-encabezado{
+	padding-bottom: 20px;
+}
+#table{
+	/* border-collapse: collapse;
+  margin-top: 60px;
+  margin-left: 25px;
+	line-height:17px;
+  width: 90%;
+  font-weight: bold; */
+}
+#table th {
+    /*border: 1px solid black;*/
+}
+#table td{
+	/*border: 1px solid black;*/
+
+}
+#etiqueta_cliente{
+  display: none;
+}
+#etiqueta_direccion{
+display: none;
+}
+#etiqueta_vendedor{
+  display: none;
+}
+#etiqueta_fecha{
+  display: none;
+}
+#etiqueta_hora{
+  display: none;
+}
+#etiqueta_factura{
+  display: none;
+}
+
+#etiqueta_letras{
+	display: none;
+}
+.my_class_quantity{
+        text-align: center;
+				color: black;
+   }
+ .my_class_cost{
+        text-align: right;
+				color: black;
+
+  }
+  .my_class_name_product{
+    padding-left: 50px;
+		color: black;
+
+
+  }
+  
+.my_class_name{
+  position: absolute;
+	color: black;
+  top: 95px;
+  left: 150px;
+}
+.my_class_name_city{
+  display: none;
+
+}
+.my_class_nit{
+	display: none;
+
+}
+.my_class_date{
+  position: absolute;
+  top: 115px;
+  left: 70px;
+	color: black;
+}
+.my_class_name_vendedor{
+  position: absolute;
+  top: 115px;
+  left: 275px;
+  color: black;
+}
+/*documento*/
+#etiqueta_documento{
+display: none;
+}
+/*documento*/
+.my_class_hora{
+  position: absolute;
+	color: black;
+  top: 95px;
+  left: 550px;
+}
+.my_class_factura{
+  position: absolute;
+  top: 115px;
+  left: 550px;
+  color: black;
+  font-size: 10px;
+}
+.my_class_total  {
+  position: absolute;
+  color: black;
+
+  top: 488px;
+  left: 570px;
+}
+.my_class_total_letter
+{
+	position: absolute;
+	color: black;
+
+  /*top: 330px;*/
+  top: 518px;
+  left: 25px;
+}
+#encabezado{
+	display: none;
+}
+

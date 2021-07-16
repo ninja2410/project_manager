@@ -1,0 +1,104 @@
+
+/* custom */
+.invoice-title h2, .invoice-title h3 {
+    display: inline-block;
+}
+
+.slogan{
+    font-size: 18px;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: grey;
+}
+
+.table > tbody > tr > .no-line {
+    border-top: none;
+}
+
+.table > thead > tr > .no-line {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .thick-line {
+    border-top: 2px solid;
+}
+
+section .back_primary{
+    border-style: solid;
+    border-color: var(--color_primary);
+    background-color:var(--color_primary);
+    color: #ffffff;
+}
+@media print {
+
+    .back_primary{
+        border-style: solid;
+        border-color: var(--color_primary);
+        background-color:var(--color_primary);
+        color: #ffffff;
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+.back_second{
+    border-style: solid;
+    border-color: var(--color_secundary);
+    background-color:var(--color_secundary);
+    color: #ffffff;
+}
+
+.ceo{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+}
+
+.description{
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.color_primary{
+    font: var(--color_primary);
+    -webkit-print-color-adjust: exact;
+}
+
+.logo_proforma{
+    -webkit-print-color-adjust: exact !important;
+}
+
+.header_details{
+    border-bottom-style: solid;
+    border-bottom-color: var(--color_primary);
+    font-size: 12px;
+}
+
+.table_details{
+    border-style: solid;
+    border-color: var(--color_primary);
+}
+
+.table_footer{
+    border-top-style: solid !important;
+    border-top-color: var(--color_secundary) !important;
+}
+
+.customer-info{
+    border-bottom-style: solid;
+    border-bottom-color: var(--color_primary);
+    font-size: 12px;
+}
+.customer-info-lower{
+    /* border-bottom-style: solid; */
+    border-bottom-color: var(--color_primary);
+    font-size: 12px;
+}
+
+.total-letras {
+    font-size: 10px;
+}
+
+.logo_invoice{
+    height: 70px;
+}

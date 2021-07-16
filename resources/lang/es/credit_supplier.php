@@ -1,0 +1,42 @@
+<?php
+
+return [
+
+	'list_credits'		=> 'Listado de cuentas por pagar',
+	'credits'			=> 'Créditos',
+	'pay'				=> 'Pagar',
+	'statement'			=> 'Edo. cuenta',
+	'statement_full'	=> 'Estado de cuenta',
+	'credit_detail'		=> 'Detalle de crédito',
+	'invoice_payment'	=> 'Abono a factura',
+	'customer_name' 	=> 'Proveedor',
+	'customer_payment'  => 'Abono a Proveedor',
+	'supplier_name'     => 'Nombre del proveedor',
+	'amount_payment' 	=> 'Monto abono',
+	'amount_invoice' 	=> 'Monto factura',
+	'balance'			=> 'Saldo',
+	'pending_invoices' 	=> 'Facturas pendientes',
+	'fee_payment'		=> 'Pagar cuota',
+	'last_fee_payment'	=> 'Pagar última cuota',
+	'payment_type'		=> 'Forma de pago',
+	'edit_payment'		=> 'Editar pago',
+	'print_credit_detail'		=> 'Impresión detalle de crédito',
+	'accounts'			=>'Cuentas por pagar',
+	'pagare'			=> 'Pagaré',
+	'nuevo_pagare'		=> 'Nuevo pagaré',
+	'pagares'			=> 'Pagarés',
+	'pago_acumulado'	=>'Relizar Pago',
+	'complete'			=>'Crédito pagado completamente',
+	'payment_detail'	=> 'Detalle de pagos',
+	'balance_routes'	=>'Arqueo de ruta',
+	'sum'				=>'Abonar',
+
+	'date'			=> 'Fecha',
+	'document'		=>	'Documento',
+	'reference'		=>  'Referencia',
+	'due_date'		=>  'Fecha Vence',
+	'account_paymemt'		=>  'Cuenta',
+	'debit'			=>  'Debito',
+	'status'		=>  'Estado',
+	'credit'		=>  'Credito'
+];

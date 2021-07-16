@@ -1,0 +1,58 @@
+.ache2 {
+    font-size: .9em;
+    font-weight: 300;
+}
+.cust-data {
+    font-size:10px;
+}
+
+#top .logo-ticket{
+    float: left;
+    height: 75px;
+    width: 60px;
+    /* background: url({{ asset('images/system/logo2.png') }}) no-repeat; */
+    /* background-color:gray; */
+    /* background-size: 60px 60px; */
+}
+.info-receipt{
+    display: block;
+    /* float:right; */
+    margin-left: 0;
+    font-size:10px;
+    
+}
+.title{
+    float: right;
+}
+.title p{text-align: right;} 
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    //padding: 5px 0 5px 15px;
+    //border: 1px solid #EEE
+}
+.tabletitle{        
+    font-size: .8em;
+    background: #e0e0e0;
+}
+.service{border-bottom: 1px solid #EEE;}
+.item{width: 44mm;}
+.itemtext{font-size: .5em;}
+#legalcopy{
+    margin-top: 5mm;
+}
+
+#invoice-POS{
+    box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+    padding:2mm;
+    margin: 0 auto;
+    /* width: 44mm; */
+    width: 70mm;
+    background: #FFF;
+    
+    
+    ::selection {background: #f31544; color: #FFF;}
+    ::moz-selection {background: #f31544; color: #FFF;}
+}

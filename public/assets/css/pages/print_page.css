@@ -1,0 +1,164 @@
+label{
+	font-weight: bold;
+}
+
+.table-encabezado{
+	padding-bottom: 20px;
+}
+#table{
+	border-collapse: collapse;
+  /* margin-top: 50px; */
+  margin-top: 46px;
+  margin-left: 25px;
+  /* line-height:20px; */
+  line-height:15px;
+  width: 88%;
+  font-weight: bold;
+  font-size: 9px;
+}
+#table th {
+    /*border: 1px solid black;*/
+}
+#table td{
+	/*border: 1px solid black;*/
+
+}
+/*documento*/
+#etiqueta_documento{
+display: none;
+}
+/*documento*/
+#etiqueta_cliente{
+  display: none;
+}
+#etiqueta_direccion{
+display: none;
+}
+#etiqueta_vendedor{
+  display: none;
+}
+#etiqueta_fecha{
+  display: none;
+}
+#etiqueta_hora{
+  display: none;
+}
+#etiqueta_factura{
+  display: none;
+}
+#etiqueta_letras{
+	display: none;
+}
+.my_class_codigo
+{
+  padding-left: 5px;
+  text-align: center;
+  color: black;
+  font-size:7px;
+  font-weight: normal;
+}
+.my_class_quantity{
+  text-align: center;
+  color: black;
+}
+.my_class_product{
+  padding-right: 12px;
+  text-align: right;
+  color: black;  
+}
+.my_class_cost{
+    text-align: right;
+    color: black;
+
+}
+
+/* nombre del producto */
+.my_class_name_product{
+  padding-left: 15px;
+  color: black;
+}
+/* fecha */
+.my_class_date{
+  position: absolute;
+  top: 45px;
+  left: 555px;
+	color: black;
+	word-spacing: 50px;
+}
+/* nombre del cliente */
+.my_class_name{
+  position: absolute;
+	color: black;
+  top: 80px;
+  left: 80px;
+}
+/* nit */
+.my_class_nit{
+	position: absolute;
+  /* top: 118px; */
+  top:80px;
+  left: 560px;
+	color: black;
+}
+/* forma de pago */
+.my_class_payment{
+	position: absolute;
+  font-size: 9px;
+  top: 107px;
+  left: 560px;
+	color: black;
+}
+
+/* Dirección */
+.my_class_name_city{
+  position: absolute;
+  top: 108px;
+  left: 90px;
+	color: black;
+}
+
+.sale_order {
+  position: absolute;
+  top: 60px;
+  left: 135px;
+  color: #909090 ;
+}
+
+
+
+
+
+.my_class_name_vendedor{
+display: none;
+}
+.my_class_hora{
+  display: none;
+}
+.my_class_factura{
+  display: none;
+}
+/* total factura */
+.my_class_total  {
+  position: absolute;
+  color: black;
+  top: 358px;
+  left: 610px;
+}
+/* total en letras */
+.my_class_total_letter
+{
+	position: absolute;
+	color: black;
+  top: 355px;
+  left: 50px;
+  font-size: 13px;
+}
+
+.printable_comment
+{
+	position: absolute;
+	color: black;
+
+  top: 438px;
+  left: 90px;
+}

@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'inventory_closing' => 'Cierres de inventario',
+    'create' => 'Nuevo cierre de inventario',
+    'date' => 'Fecha',
+    'correlative' => 'Correlativo',
+    'user' => 'Usuario Registra',
+    'amount' => 'Monto',
+    'cellar' => 'Bodega',
+    'month' => 'Período cerrado',
+    'history' => 'Ultimos cierres de inventario',
+    'total_quantity' => 'Existencia total',
+    'comment' => 'Comentario',
+    'deleted_ok' => 'Cuenta eliminada correctamente.',
+    'save_ok' => 'Cuenta guardada correctamente.',
+    'update_ok' => 'Cuenta actualizada correctamente.',
+    'actions' => 'Acciones',
+    'show' => 'Detalles cierre de inventario',
+    'year' => 'Año',
+    'cant_create' => 'El mes actual se encuentra cerrado.',
+    'error_create' => 'No se ha podido cerrar el cierre de inventario.',
+    'quantity' => 'Cantidad total',
+    'created_at' => 'Fecha de registro',
+    'months_to_close' => 'Mes(es) a cerrar: ',
+];
